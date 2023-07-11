@@ -11,13 +11,13 @@ player has won, then the game ends in a draw. Player "A" has the first turn.
   
 # How to play:  
 Initialize game:  
-( &nbsp; )( &nbsp; )( &nbsp; )game = AddThreeGame()  
+&nbsp; &nbsp; &nbsp; game = AddThreeGame()  
     
 Player_A has the first move:  
-( &nbsp; )( &nbsp; )( &nbsp; )game.make_move("Player_A", 3)  
+&nbsp; &nbsp; &nbsp; game.make_move("Player_A", 3)  
   
 Player_B makes the next move:  
-( &nbsp; )( &nbsp; )( &nbsp; )game.make_move("Player_B", 1)  
+&nbsp; &nbsp; &nbsp; game.make_move("Player_B", 1)  
   
 Continue until either player wins or there is a draw  
 Results are printed to the console  
